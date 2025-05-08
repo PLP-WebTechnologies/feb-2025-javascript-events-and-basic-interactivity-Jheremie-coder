@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive Assignment</h1>
+
+  <!-- Button for Events -->
+  <button id="colorButton">Click Me!</button>
+  <div id="hoverBox">Hover Over Me!</div>
+  <p id="keypressDisplay">Press Any Key...</p>
+
+  <!-- Secret Action -->
+  <button id="secretButton">Double-Click or Long Press Me!</button>
+
+  <!-- Image Gallery -->
+  <div id="gallery">
+    <img src="https://www.pinterest.com/pin/14988611254525896/" alt="pinterest" class="gallery-image">
+    <img src="https://www.pinterest.com/pin/1477812373525100/" alt="pinterest" class="gallery-image">
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" class="gallery-image">
+</div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab-button" data-tab="tab1">Tab 1</button>
+    <button class="tab-button" data-tab="tab2">Tab 2</button>
+    <button class="tab-button" data-tab="tab3">Tab 3</button>
+  </div>
+  <div class="tab-content" id="tab1">Content for Tab 1</div>
+  <div class="tab-content" id="tab2" style="display: none;">Content for Tab 2</div>
+  <div class="tab-content" id="tab3" style="display: none;">Content for Tab 3</div>
+
+  <!-- Form -->
+  <form id="myForm">
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+        <small id="emailFeedback"></small>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+    <small id="passwordFeedback"></small>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
